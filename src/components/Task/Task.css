@@ -1,0 +1,30 @@
+.task{
+    display: flex;
+    /* Here button and another div comes in one row */
+    align-items: center; 
+    /* To hv the boxitems in center */
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0 ;
+}
+.task > div {
+    width: 100%;
+}
+.task button {
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    font-size: 1.6rem;
+    /* Height and width given same to make round */
+    align-items: center;
+    display: flex; 
+    /* flex to make (-) sign in center */
+    justify-content: center;
+    align-items: center;
+}
+
+.task button:hover {
+    background-color: red;
+}
+/* *{border: 2px solid red} */
